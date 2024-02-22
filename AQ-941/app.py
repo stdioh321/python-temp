@@ -1,5 +1,11 @@
 import os
 from flask import Flask, Response, jsonify
+import random
+import datetime
+
+random_date = datetime.datetime.today() + datetime.timedelta(days=random.randint(-10, 10)) if random.choice([True, False]) else None
+
+
 
 app = Flask(__name__)
 
@@ -18,7 +24,7 @@ def index():
                 "createdAt": "2021-06-07T01:52:03.782Z",
                 "firstMessageAt": "2020-10-27T04:10:29.298Z",
                 "lastMessageAt": "2021-06-17T19:45:10.683Z",
-                "closedAt": None,
+                "closedAt": random_date,
             },
             "client": {"id": 318, "name": "VplTmruGPy", "identifier": "cdJyL5LOUx"},
             "operator": {
@@ -40,7 +46,7 @@ def index():
                 "createdAt": "2023-08-01T14:59:02.294Z",
                 "firstMessageAt": "2021-06-13T11:11:24.999Z",
                 "lastMessageAt": "2022-10-02T10:57:06.154Z",
-                "closedAt": "2022-08-25T12:29:48.207Z",
+                "closedAt": random_date,
             },
             "client": {"id": 190, "name": "Fw1pW8I2F5", "identifier": "HcFOVlfhH5"},
             "operator": {
@@ -55,14 +61,14 @@ def index():
             "companyId": 38,
             "organizationId": 672,
             "conversation": {
-                "protocol": "8-7739764688561",
+                "protocol": "1-2229659481386",
                 "historyId": 263,
                 "messageCount": 11,
                 "contactId": "waent_572_2942251322130",
                 "createdAt": "2022-07-07T08:55:31.033Z",
                 "firstMessageAt": "2021-02-16T23:26:47.061Z",
                 "lastMessageAt": "2021-04-26T14:56:36.594Z",
-                "closedAt": "2021-03-17T15:18:47.934Z",
+                "closedAt": random_date,
             },
             "client": {"id": 644, "name": "GWbYGR4Lr8", "identifier": "VIQJy5nZ5K"},
             "operator": {
@@ -84,7 +90,7 @@ def index():
                 "createdAt": "2021-06-02T02:48:09.196Z",
                 "firstMessageAt": "2020-12-17T21:06:31.122Z",
                 "lastMessageAt": "2021-12-06T04:43:06.154Z",
-                "closedAt": "2021-07-02T05:43:37.289Z",
+                "closedAt": random_date,
             },
             "client": {"id": 584, "name": "P23b5qRyjI", "identifier": "JfPQZ7sCyD"},
             "operator": {
@@ -106,7 +112,7 @@ def index():
                 "createdAt": "2022-03-27T14:32:11.334Z",
                 "firstMessageAt": "2021-10-01T04:45:29.574Z",
                 "lastMessageAt": "2022-04-06T10:17:48.229Z",
-                "closedAt": "2021-11-16T10:56:22.131Z",
+                "closedAt": random_date,
             },
             "client": {"id": 405, "name": "hw3GgCql49", "identifier": "i9aAexs1Qi"},
             "operator": {
@@ -128,7 +134,7 @@ def index():
                 "createdAt": "2021-05-03T00:32:45.290Z",
                 "firstMessageAt": "2021-05-14T12:44:14.671Z",
                 "lastMessageAt": "2022-01-29T10:00:06.357Z",
-                "closedAt": "2022-01-23T23:02:31.999Z",
+                "closedAt": random_date,
             },
             "client": {"id": 369, "name": "x6TzHbg5Ky", "identifier": "dF4Bpn8N7A"},
             "operator": {
@@ -150,7 +156,7 @@ def index():
                 "createdAt": "2022-03-30T19:32:29.103Z",
                 "firstMessageAt": "2022-02-22T08:25:15.873Z",
                 "lastMessageAt": "2022-04-10T09:43:40.986Z",
-                "closedAt": "2021-08-08T19:11:50.384Z",
+                "closedAt": random_date,
             },
             "client": {"id": 855, "name": "MbmmdYrSHg", "identifier": "QVrgU8x4Hi"},
             "operator": {
@@ -172,7 +178,7 @@ def index():
                 "createdAt": "2023-03-03T16:44:56.646Z",
                 "firstMessageAt": "2022-05-25T21:51:00.815Z",
                 "lastMessageAt": "2022-08-07T23:18:33.022Z",
-                "closedAt": "2021-06-23T17:05:08.350Z",
+                "closedAt": random_date,
             },
             "client": {"id": 465, "name": "5jGBZjH1aG", "identifier": "zcd4avHyTn"},
             "operator": {
@@ -194,7 +200,7 @@ def index():
                 "createdAt": "2021-05-21T10:00:00.114Z",
                 "firstMessageAt": "2021-05-25T13:50:46.392Z",
                 "lastMessageAt": "2021-07-15T14:26:43.400Z",
-                "closedAt": "2021-11-25T04:26:24.233Z",
+                "closedAt": random_date,
             },
             "client": {"id": 573, "name": "h6Ky3arFqW", "identifier": "67Rb8zKmF3"},
             "operator": {
@@ -216,7 +222,7 @@ def index():
                 "createdAt": "2022-01-29T15:06:05.158Z",
                 "firstMessageAt": "2021-11-12T02:47:59.300Z",
                 "lastMessageAt": "2022-03-02T05:29:08.707Z",
-                "closedAt": "2021-11-19T22:26:49.940Z",
+                "closedAt": random_date,
             },
             "client": {"id": 954, "name": "7Xsucr0vQ1", "identifier": "iL5Pamzz3P"},
             "operator": {
@@ -238,7 +244,7 @@ def index():
                 "createdAt": "2022-01-05T05:53:12.861Z",
                 "firstMessageAt": "2021-07-14T09:53:31.893Z",
                 "lastMessageAt": "2022-02-26T12:54:13.026Z",
-                "closedAt": "2021-07-27T16:18:01.863Z",
+                "closedAt": random_date,
             },
             "client": {"id": 134, "name": "Hg0j7tOTfC", "identifier": "t2GEbZ2gPa"},
             "operator": {
