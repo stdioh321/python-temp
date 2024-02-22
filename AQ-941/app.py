@@ -68,7 +68,7 @@ def index():
                 "createdAt": "2022-07-07T08:55:31.033Z",
                 "firstMessageAt": "2021-02-16T23:26:47.061Z",
                 "lastMessageAt": "2021-04-26T14:56:36.594Z",
-                "closedAt": None
+                "closedAt": "2021-04-26T14:56:36.594Z"
             },
             "client": {"id": 644, "name": "GWbYGR4Lr8", "identifier": "VIQJy5nZ5K"},
             "operator": {
@@ -222,7 +222,7 @@ def index():
                 "createdAt": "2022-01-29T15:06:05.158Z",
                 "firstMessageAt": "2021-11-12T02:47:59.300Z",
                 "lastMessageAt": "2022-03-02T05:29:08.707Z",
-                "closedAt": "2021-06-13T11:11:24.999Z"
+                "closedAt": None
             },
             "client": {"id": 954, "name": "7Xsucr0vQ1", "identifier": "iL5Pamzz3P"},
             "operator": {
